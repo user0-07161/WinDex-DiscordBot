@@ -55,9 +55,9 @@ class Settings:
     shard_count: int | None = None
     prefix: str = "b."
 
-    collectible_name: str = "countryball"
-    bot_name: str = "BallsDex"
-    players_group_cog_name: str = "balls"
+    collectible_name: str = "windowslogo"
+    bot_name: str = "WinDex"
+    players_group_cog_name: str = "logos"
 
     # /about
     about_description: str = ""
@@ -125,7 +125,7 @@ def write_default_settings(path: "Path"):
 discord-token: 
 
 # prefix for old-style text commands, mostly unused
-text-prefix: b.
+text-prefix: w.
 
 # define the elements given with the /about command
 about:
@@ -133,31 +133,31 @@ about:
   # define the beginning of the description of /about
   # the other parts is automatically generated
   description: >
-    Collect countryballs on Discord, exchange them and battle with friends!
+    Collect Windows logo's on Discord, exchange them and battle with friends!
 
   # override this if you have a fork
-  github-link: https://github.com/laggron42/BallsDex-DiscordBot
+  github-link: https://github.com/winwastaken/WinDex-DiscordBot
 
   # valid invite for a Discord server
-  discord-invite: https://discord.gg/ballsdex  # BallsDex official server
+  discord-invite: https://discord.gg/dain!!!!!!!  # WinDex official server
 
-  terms-of-service: https://gist.github.com/laggron42/52ae099c55c6ee1320a260b0a3ecac4e
-  privacy-policy: https://gist.github.com/laggron42/1eaa122013120cdfcc6d27f9485fe0bf
+  terms-of-service: 
+  privacy-policy: 
 
 # WORK IN PROGRESS, DOES NOT FULLY WORK
 # override the name "countryballs" in the bot
-collectible-name: countryball
+collectible-name: windowslogo
 
 # WORK IN PROGRESS, DOES NOT FULLY WORK
 # override the name "BallsDex" in the bot
-bot-name: BallsDex
+bot-name: WinDex
 
 # players group cog command name
 # this is /balls by default, but you can change it for /animals or /rocks for example
-players-group-cog-name: balls
+players-group-cog-name: windowslogo
 
 # enables the /admin command
-admin-command:
+admin-command: yes
 
   # all items here are list of IDs. example on how to write IDs in a list:
   # guild-ids:
