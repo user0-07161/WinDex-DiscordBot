@@ -1,4 +1,4 @@
-# WinDex Discord Bot (OG Code from BallsDex
+# WinDex Discord Bot (OG Code from BallsDex)
 
 [![Issues](https://img.shields.io/github/issues/winwastaken/WinDex-DiscordBot)](https://github.com/winwastaken/WinDex-DiscordBot/issues)
 [![discord.py](https://img.shields.io/badge/discord-py-blue.svg)](https://github.com/Rapptz/discord.py)
